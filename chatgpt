@@ -1,0 +1,9 @@
+#import openai
+#openai.api_key = "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"
+
+#completion = openai.Completion.create(engine= "text-davinci-003",
+#                                     prompt= "Si una empresa tiene en su flujo de efectivo como total actividades de operacion $58.000, total de actividades de inversion $-36.000,total de actividades de financiacion $18.500, aumento efectivo durante el periodo $40.500 y todo lo anterior en pesos colombianos, ¿que analisis se le puede hacer al reporte de flujo de efectivo de esta empresa? ",
+#                                    max_tokens=2048  )
+
+
+#print(completion.choices[0].text)
